@@ -1,11 +1,15 @@
 /*Responsive Movil*/
 @media(max-width: 767px){
-    body{
-        background-color: aquamarine;
+    .wrapper{
+        max-width: 97%;
+        width: 960px;
+        padding: 10px 10px;
+        margin: 0 auto;
     }
-
+    
     .caja-img img{
-        width: 100%;
+        width: 97%;
+        margin-bottom: 10px;
     }
 
     #blog-updates{

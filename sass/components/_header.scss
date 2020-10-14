@@ -6,11 +6,12 @@
 .nav{
     display: none;
 }
-#menu{
-    width: 68%;
+#menu {
+    width: 69%;
     float: $right;
-    position: $relative;
+    position: $relative; 
 }
+
 #menu-link-email{
     text-decoration: none;
     color: $gris_oscuro;

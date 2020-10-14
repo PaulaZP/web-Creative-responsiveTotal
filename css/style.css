@@ -33,7 +33,7 @@ p {
   display: none; }
 
 #menu {
-  width: 68%;
+  width: 69%;
   float: right;
   position: relative; }
 
@@ -78,7 +78,7 @@ body {
 .wrapper {
   max-width: 100%;
   width: 960px;
-  padding: 0 10px 0 10px;
+  padding: 10px 10px;
   margin: 0 auto; }
 
 .header {
@@ -242,10 +242,14 @@ body {
 
 /*Responsive Movil*/
 @media (max-width: 767px) {
-  body {
-    background-color: aquamarine; }
+  .wrapper {
+    max-width: 97%;
+    width: 960px;
+    padding: 10px 10px;
+    margin: 0 auto; }
   .caja-img img {
-    width: 100%; }
+    width: 97%;
+    margin-bottom: 10px; }
   #blog-updates {
     width: 100%; }
   #connect {
