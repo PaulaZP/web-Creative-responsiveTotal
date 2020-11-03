@@ -5,6 +5,9 @@ body{
     margin: $margin;
     background-color: #f4f4f4;
 }
+html{
+    font-size: 16px;
+}
 
 /*Helpers*/
 .wrapper{
@@ -32,7 +35,7 @@ body{
 }
 .link-arrow{
     color: $naranja;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: bold;
     padding-left: 23px;
     text-decoration: none;
@@ -75,7 +78,7 @@ body{
 .caja-link{
     color: $negro;
     font-style: italic;
-    font-size: 12px;
+    font-size: 0.75rem;
     text-decoration: none;
 }
 

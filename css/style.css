@@ -1,12 +1,12 @@
 @charset "UTF-8";
 h3 {
-  font-size: 12px;
+  font-size: 0.75rem;
   padding-left: 23px;
   background-size: 8px;
   background-position: 0 5px; }
 
 h2 {
-  font-size: 18px;
+  font-size: 1.125rem;
   padding-left: 30px;
   background-position: 0 7px; }
 
@@ -21,7 +21,7 @@ h2, h3 {
 
 p {
   color: #5d5d5d;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 15px; }
 
 /*header*/
@@ -40,7 +40,7 @@ p {
 #menu-link-email {
   text-decoration: none;
   color: #5d5d5d;
-  font-size: 13px;
+  font-size: 0.8125rem;
   position: absolute;
   top: 0;
   right: 0; }
@@ -74,6 +74,9 @@ body {
   margin: 0;
   background-color: #f4f4f4; }
 
+html {
+  font-size: 16px; }
+
 /*Helpers*/
 .wrapper {
   max-width: 100%;
@@ -100,7 +103,7 @@ body {
 
 .link-arrow {
   color: #fe9b00;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: bold;
   padding-left: 23px;
   text-decoration: none;
@@ -142,7 +145,7 @@ body {
 .caja-link {
   color: #090909;
   font-style: italic;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-decoration: none; }
 
 /*-----------------------------------*/
@@ -202,7 +205,7 @@ body {
 
 #footer-lista a {
   color: #5d5d5d;
-  font-size: 12px; }
+  font-size: 0.75rem; }
 
 .footer-logo {
   height: 64px;
